@@ -13,6 +13,7 @@ class DestinoRepositorio:
         for item in self.lista_destino:
             if (ddd == item.ddd):
                 return True
+        return False
 
     def obter_destino_pelo_ddd(self, ddd: int):
         for item in self.lista_destino:
