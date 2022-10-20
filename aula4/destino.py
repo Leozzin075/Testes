@@ -1,4 +1,4 @@
 class Destino:
-    def __init__(self, DDD, Destino):
-        self.DDD = ddd
-        self.Destino = destino
+    def __init__(self, destino, ddd):
+        self.destino = destino
+        self.ddd = ddd
